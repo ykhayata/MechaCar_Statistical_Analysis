@@ -18,6 +18,40 @@ SUMMARY:
 
 <img width="623" alt="mpglinear_regression" src="https://user-images.githubusercontent.com/74481469/111111829-4baadf00-851c-11eb-9cee-ba2715373c69.png">
 
+## Summary Stats on Suspension Coils
+
+  For this specific task, we used suspension coils dataset provided. This dataset was made up of 150 different vehicle IDs, 3 different lot numbers, and PSI levels for each vehicle. We then created one summary table to analyze the mean, median, and standard deviation of data. The second table was a table that consisted of the three lots these MechaCars were divided into.
+  
+<img width="424" alt="totalsum_sus_coils" src="https://user-images.githubusercontent.com/74481469/111112315-2ff40880-851d-11eb-98ef-ed3615337a99.png">
+
+<img width="614" alt="lot_summary_suscoils" src="https://user-images.githubusercontent.com/74481469/111112348-3f735180-851d-11eb-83bc-1e5156fc5274.png">
+
+  When looking at the total summary, we see the current variance is approximately 62.29 PSI which means that it meets the design specification. When looking at the
+lots individuals, the first two lots do meet the design specification at a varaince of approximately 0.98 PSI and 7.47 PSI respectfully, though the third lot heavily exceeds the design specification at 170.29 PSI. This tells us the vehicles in lots 1 and 2 should be the main priority for the manufactoring team.
+
+## T-Tests on Suspension Coils 
+
+  In this specific section we want to determine whether or not our manufacturing lots are statistically different than the population mean of 1,500 pounds per square inch. To find the answer, we use R's t.test() function to find four different p-values. We came up with this answer:
+  
+By using a significance level of 95%, we tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After concluding the tests, we came to the conclusion that all four p-values where significantly greater than .05. This means that we are forced to fail to reject there is a statistical difference between the four groups and the population mean.
+
+Our four tests:
+
+<img width="618" alt="total_pop_test" src="https://user-images.githubusercontent.com/74481469/111113722-6e8ac280-851f-11eb-996a-6bc8c7c18a8e.png">
+
+<img width="550" alt="pop_test1" src="https://user-images.githubusercontent.com/74481469/111113757-79455780-851f-11eb-85eb-f9bf98d65b1c.png">
+
+<img width="521" alt="pop_test2" src="https://user-images.githubusercontent.com/74481469/111113783-83ffec80-851f-11eb-893f-78450e9f5f14.png">
+
+![image](https://user-images.githubusercontent.com/74481469/111113813-8eba8180-851f-11eb-9061-cbf50930caf3.png)
+
+
+
+
+
+
+
+
 
 
 
