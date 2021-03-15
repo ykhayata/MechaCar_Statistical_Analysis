@@ -45,6 +45,28 @@ Our four tests:
 
 ![image](https://user-images.githubusercontent.com/74481469/111113813-8eba8180-851f-11eb-9061-cbf50930caf3.png)
 
+## Study Design: MechaCar vs Competition
+
+Finally, we want how the MechaCar performs with the competition, with our knowledge of R. We must answer these four crucial questions:
+
+1: What metric or metrics are you going to test?
+
+2: What is the null hypothesis or alternative hypothesis?
+
+3: What statistical test would you use to test the hypothesis? And why?
+
+4: What data is needed to run the statistical test?
+
+Our answers: 
+
+1: The metrics we need to test involve fuel efficiencies, and specifically the difference between city and highway mpg. 
+
+2: Null Hypothesis: All cars in the same class have the same fuel efficienies.
+  Alternative Hypothesis: All cars in the same class do not have the same fuel effencies.
+
+3: I would personally use an ANOVA test to complete this analysis for both types of fuel efficiencies because it enables us to see how effective two different types of fuel effencies are and how durable they are.
+
+4: We would need to extract fuel efficiency data from at least 50 cars, just so we have a big enough sample size to start running statistical tests.
 
 
 
